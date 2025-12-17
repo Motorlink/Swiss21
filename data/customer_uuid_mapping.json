@@ -98,5 +98,10 @@
     "uuid": "b460a760-1ac3-47a8-ac69-11cca8c28936",
     "name": "Arifi Garage (eich-pfungen ag)",
     "company_name": "Arifi Garage (eich-pfungen ag)"
+  },
+  "10000": {
+    "uuid": "9841bb7e-df01-48af-80f1-9f8779ebe242",
+    "name": "MT Transport GmbH",
+    "company_name": "MT Transport GmbH"
   }
 }
