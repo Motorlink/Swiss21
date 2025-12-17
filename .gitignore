@@ -41,7 +41,20 @@ config/config.json
 
 # Logs
 *.log
-logs/
+logs/*.log
+
+# Data (generierte Dateien)
+data/qr_codes/*.png
+data/qr_codes/*.svg
+data/pdfs/*.pdf
+data/temp/*
+
+# Keep directory structure
+!data/.gitkeep
+!logs/.gitkeep
+!data/qr_codes/.gitkeep
+!data/pdfs/.gitkeep
+!data/temp/.gitkeep
 
 # OS
 .DS_Store
@@ -52,6 +65,11 @@ Thumbs.db
 .coverage
 htmlcov/
 .tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
 # Temporary files
 *.tmp
