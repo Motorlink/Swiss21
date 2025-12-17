@@ -1,0 +1,134 @@
+{
+  "10000": {
+    "companyUuid": "e6592469-5215-481d-b354-2227b75a6ad5",
+    "addressUuid": "ad08bb56-373d-48df-b906-e994cb27eaf9",
+    "name": "",
+    "type": "company"
+  },
+  "10001": {
+    "companyUuid": "61c4f604-f447-4f47-8784-4fbbb157b98a",
+    "addressUuid": "80e5dd34-6874-4782-ae98-1c28f13a492b",
+    "name": "",
+    "type": "company"
+  },
+  "10002": {
+    "companyUuid": "a456efed-e92d-4126-963c-bca4ac94479d",
+    "addressUuid": "f410676d-4e89-4ea5-bc45-859e1e365d2d",
+    "name": "",
+    "type": "company"
+  },
+  "10003": {
+    "companyUuid": "81bbb9c0-a2db-433c-a055-d3c2f181e6f5",
+    "addressUuid": "43c5814c-a15f-4f34-83ce-34a963283299",
+    "name": "",
+    "type": "company"
+  },
+  "10004": {
+    "companyUuid": "544a6767-ec36-4341-8570-79d44ffd9a68",
+    "addressUuid": "c6130edd-5e72-49ab-9653-5fa099c01830",
+    "name": "",
+    "type": "company"
+  },
+  "10005": {
+    "companyUuid": "c9c26c7a-4942-409e-9487-6a97c58ea527",
+    "addressUuid": "4b402358-4412-4c59-bac0-68558216e6b8",
+    "name": "",
+    "type": "company"
+  },
+  "10006": {
+    "companyUuid": "85d89bdb-37f0-4972-bf88-24300f77c8d3",
+    "addressUuid": "bb4197ca-3190-4c63-b81e-2f621424116c",
+    "name": "",
+    "type": "company"
+  },
+  "10007": {
+    "companyUuid": "2e5d60a3-9e85-4972-9cfe-221928f149f0",
+    "addressUuid": "5cd5aa74-3d03-496c-990c-73b6614a8b72",
+    "name": "",
+    "type": "company"
+  },
+  "10009": {
+    "companyUuid": "c662e9f8-01fd-41aa-a9ab-6bbc3a9c63f7",
+    "addressUuid": "8e7207c3-4473-4192-bf61-5773851955cb",
+    "name": "",
+    "type": "company"
+  },
+  "10010": {
+    "companyUuid": "12381746-5c4e-41c9-a9ee-d98de5857f61",
+    "addressUuid": "4fce5372-1a22-4623-9a0d-cedcdd85b791",
+    "name": "",
+    "type": "company"
+  },
+  "10014": {
+    "companyUuid": "eddc81ac-725b-4b69-9dcc-31a74e984424",
+    "addressUuid": "8d95dae5-b099-4245-8eff-c6c39add294b",
+    "name": "",
+    "type": "company"
+  },
+  "10015": {
+    "companyUuid": "6eebf8c1-f1a7-471d-94b3-d41da0dd1eaa",
+    "addressUuid": "2efc7f56-670a-4cfa-9976-61b3101a5659",
+    "name": "",
+    "type": "company"
+  },
+  "10016": {
+    "companyUuid": "97427366-9973-48d2-ad1b-550c6b23a511",
+    "addressUuid": "efc555e1-5972-45cd-95d2-36ca8cefa47a",
+    "name": "",
+    "type": "company"
+  },
+  "10017": {
+    "companyUuid": "20246531-fc12-4980-8859-3483c73b2043",
+    "addressUuid": "071242a2-128e-4de0-bc01-ee769bc9b41e",
+    "name": "",
+    "type": "company"
+  },
+  "10018": {
+    "companyUuid": "bcab3377-51f1-43e1-8bcf-02d766214d63",
+    "addressUuid": "45d45c75-bda6-49fa-a7d7-c58778ee6c75",
+    "name": "",
+    "type": "company"
+  },
+  "10019": {
+    "companyUuid": "c75ea3fe-30ff-4943-a2ee-d09ca0e3b040",
+    "addressUuid": "91d7ecb8-5a2f-480f-a49a-f326390ffbf7",
+    "name": "",
+    "type": "company"
+  },
+  "10020": {
+    "companyUuid": "5e9160c3-6015-41c9-9639-7110cd73d9ca",
+    "addressUuid": "fdac17f5-bf09-4a99-9ece-89158eadac32",
+    "name": "",
+    "type": "company"
+  },
+  "10021": {
+    "companyUuid": "4d6e11e1-f7b1-4041-be5e-2c908207ac25",
+    "addressUuid": "054b49fa-d3b5-41a8-a80b-5cc44358f593",
+    "name": "",
+    "type": "company"
+  },
+  "10022": {
+    "companyUuid": "fa3d693a-85ec-4893-9b1f-5e1be1dc1297",
+    "addressUuid": "70533e23-e2ef-4828-b9ef-f585b28ae5d9",
+    "name": "",
+    "type": "company"
+  },
+  "10024": {
+    "companyUuid": "bd4d9913-4794-47ad-a0ae-0d26687e961d",
+    "addressUuid": "b3de5965-b06c-45e1-a57f-ed95c53280a3",
+    "name": "",
+    "type": "company"
+  },
+  "10026": {
+    "companyUuid": "d637bf10-c0f4-4a55-8d6c-c0120fc945b6",
+    "addressUuid": "009973fc-4f20-48fb-af82-9b34c96556ce",
+    "name": "",
+    "type": "company"
+  },
+  "10027": {
+    "companyUuid": "b460a760-1ac3-47a8-ac69-11cca8c28936",
+    "addressUuid": "01644937-9ca3-47b7-8823-6fbfe5fcd09d",
+    "name": "",
+    "type": "company"
+  }
+}

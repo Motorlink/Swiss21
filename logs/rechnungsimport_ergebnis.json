@@ -1,0 +1,96 @@
+{
+  "erfolg": [
+    {
+      "rechnung": "2",
+      "ninja": "R0004",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "1",
+      "ninja": "R0005",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "13",
+      "ninja": "R0006",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "12",
+      "ninja": "R0007",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "11",
+      "ninja": "R0008",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "9",
+      "ninja": "R0009",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "7",
+      "ninja": "R0010",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "4",
+      "ninja": "R0011",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "33",
+      "ninja": "R0012",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "56",
+      "ninja": "R0013",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "63",
+      "ninja": "R0014",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "75",
+      "ninja": "R0015",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "76",
+      "ninja": "R0016",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "72",
+      "ninja": "R0017",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "69",
+      "ninja": "R0018",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "67",
+      "ninja": "R0019",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "78",
+      "ninja": "R0020",
+      "auftrag": "unbekannt"
+    },
+    {
+      "rechnung": "79",
+      "ninja": "R0021",
+      "auftrag": "unbekannt"
+    }
+  ],
+  "fehler": [],
+  "kein_kunde": []
+}

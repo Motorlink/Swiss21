@@ -1,0 +1,338 @@
+{
+  "erfolg": [],
+  "fehler": [],
+  "kein_kunde": [
+    {
+      "rechnung": 1,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 2,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 3,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 4,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 5,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 6,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 7,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 8,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 9,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 10,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 11,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 12,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 13,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 14,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 15,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 16,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 17,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 18,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 19,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 20,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 21,
+      "kunde": 10003
+    },
+    {
+      "rechnung": 22,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 23,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 24,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 25,
+      "kunde": 10004
+    },
+    {
+      "rechnung": 26,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 27,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 28,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 29,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 30,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 31,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 32,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 33,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 34,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 35,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 36,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 37,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 38,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 39,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 40,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 41,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 42,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 43,
+      "kunde": 10007
+    },
+    {
+      "rechnung": 44,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 45,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 46,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 47,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 48,
+      "kunde": 10006
+    },
+    {
+      "rechnung": 49,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 50,
+      "kunde": 10002
+    },
+    {
+      "rechnung": 51,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 52,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 53,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 54,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 55,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 56,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 57,
+      "kunde": 10003
+    },
+    {
+      "rechnung": 58,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 59,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 60,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 61,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 62,
+      "kunde": 10003
+    },
+    {
+      "rechnung": 63,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 64,
+      "kunde": 10022
+    },
+    {
+      "rechnung": 65,
+      "kunde": 10005
+    },
+    {
+      "rechnung": 66,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 67,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 68,
+      "kunde": 10015
+    },
+    {
+      "rechnung": 69,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 70,
+      "kunde": 10015
+    },
+    {
+      "rechnung": 71,
+      "kunde": 10015
+    },
+    {
+      "rechnung": 72,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 73,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 74,
+      "kunde": 10003
+    },
+    {
+      "rechnung": 75,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 76,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 77,
+      "kunde": 10003
+    },
+    {
+      "rechnung": 78,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 79,
+      "kunde": 10000
+    },
+    {
+      "rechnung": 80,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 81,
+      "kunde": 10001
+    },
+    {
+      "rechnung": 82,
+      "kunde": 10022
+    },
+    {
+      "rechnung": 83,
+      "kunde": 10015
+    }
+  ]
+}

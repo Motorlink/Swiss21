@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webisco version="21" username="10000" password="sales123" type="request">
+  <content>
+    <auftrag typ="bestellung">
+      <!-- Auftragskopf -->
+      <bestellername>MT Transport GmbH</bestellername>
+      <bestellnummer>WEBISCO-TEST-AUFTRAG-2</bestellnummer>
+      <wunschlieferdatum>2025-09-08</wunschlieferdatum>
+      <wunschfilialid>1</wunschfilialid>
+      <bemerkung>TEST: Reimport von Auftrag 2 über Webisco-Schnittstelle</bemerkung>
+      <referer>http://swiss21-migration-test.local</referer>
+      
+      <!-- Artikelposition 1 -->
+      <position>
+        <artikelid>999999</artikelid>
+        <menge>1.00</menge>
+        <einzelpreis_netto>15.00</einzelpreis_netto>
+        <einzelpreis_brutto>16.22</einzelpreis_brutto>
+        <listenpreis>15.00</listenpreis>
+        <mwst>8.1</mwst>
+        <beschreibung>Testartikel hu7020z</beschreibung>
+        <bemerkung>TEST Position - Herstellernummer: hu7020z</bemerkung>
+      </position>
+      
+    </auftrag>
+  </content>
+</webisco>

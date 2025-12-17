@@ -1,0 +1,350 @@
+{
+  "erfolg": [
+    {
+      "rechnung": "3",
+      "ninja": "R0022",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "5",
+      "ninja": "R0023",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "6",
+      "ninja": "R0024",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "8",
+      "ninja": "R0025",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "10",
+      "ninja": "R0026",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "16",
+      "ninja": "R0027",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "17",
+      "ninja": "R0028",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "18",
+      "ninja": "R0029",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "19",
+      "ninja": "R0030",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "20",
+      "ninja": "R0031",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "22",
+      "ninja": "R0032",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "24",
+      "ninja": "R0033",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "26",
+      "ninja": "R0034",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "29",
+      "ninja": "R0035",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "30",
+      "ninja": "R0036",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "31",
+      "ninja": "R0037",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "32",
+      "ninja": "R0038",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "34",
+      "ninja": "R0039",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "51",
+      "ninja": "R0040",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "52",
+      "ninja": "R0041",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "53",
+      "ninja": "R0042",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "54",
+      "ninja": "R0043",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "66",
+      "ninja": "R0044",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "73",
+      "ninja": "R0045",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "80",
+      "ninja": "R0046",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "81",
+      "ninja": "R0047",
+      "kunde": "10001"
+    },
+    {
+      "rechnung": "14",
+      "ninja": "R0048",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "15",
+      "ninja": "R0049",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "23",
+      "ninja": "R0050",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "35",
+      "ninja": "R0051",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "36",
+      "ninja": "R0052",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "37",
+      "ninja": "R0053",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "38",
+      "ninja": "R0054",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "39",
+      "ninja": "R0055",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "44",
+      "ninja": "R0056",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "46",
+      "ninja": "R0057",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "47",
+      "ninja": "R0058",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "49",
+      "ninja": "R0059",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "50",
+      "ninja": "R0060",
+      "kunde": "10002"
+    },
+    {
+      "rechnung": "21",
+      "ninja": "R0061",
+      "kunde": "10003"
+    },
+    {
+      "rechnung": "57",
+      "ninja": "R0062",
+      "kunde": "10003"
+    },
+    {
+      "rechnung": "62",
+      "ninja": "R0063",
+      "kunde": "10003"
+    },
+    {
+      "rechnung": "74",
+      "ninja": "R0064",
+      "kunde": "10003"
+    },
+    {
+      "rechnung": "77",
+      "ninja": "R0065",
+      "kunde": "10003"
+    },
+    {
+      "rechnung": "25",
+      "ninja": "R0066",
+      "kunde": "10004"
+    },
+    {
+      "rechnung": "27",
+      "ninja": "R0067",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "28",
+      "ninja": "R0068",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "40",
+      "ninja": "R0069",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "41",
+      "ninja": "R0070",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "42",
+      "ninja": "R0071",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "45",
+      "ninja": "R0072",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "55",
+      "ninja": "R0073",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "58",
+      "ninja": "R0074",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "59",
+      "ninja": "R0075",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "60",
+      "ninja": "R0076",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "61",
+      "ninja": "R0077",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "65",
+      "ninja": "R0078",
+      "kunde": "10005"
+    },
+    {
+      "rechnung": "48",
+      "ninja": "R0079",
+      "kunde": "10006"
+    },
+    {
+      "rechnung": "43",
+      "ninja": "R0080",
+      "kunde": "10007"
+    },
+    {
+      "rechnung": "68",
+      "ninja": "R0081",
+      "kunde": "10015"
+    },
+    {
+      "rechnung": "70",
+      "ninja": "R0082",
+      "kunde": "10015"
+    },
+    {
+      "rechnung": "71",
+      "ninja": "R0083",
+      "kunde": "10015"
+    },
+    {
+      "rechnung": "83",
+      "ninja": "R0084",
+      "kunde": "10015"
+    },
+    {
+      "rechnung": "64",
+      "ninja": "R0085",
+      "kunde": "10022"
+    },
+    {
+      "rechnung": "82",
+      "ninja": "R0086",
+      "kunde": "10022"
+    }
+  ],
+  "fehler": [],
+  "uebersprungen": [
+    "1",
+    "2",
+    "4",
+    "7",
+    "9",
+    "11",
+    "12",
+    "13",
+    "33",
+    "56",
+    "63",
+    "67",
+    "69",
+    "72",
+    "75",
+    "76",
+    "78",
+    "79"
+  ]
+}
