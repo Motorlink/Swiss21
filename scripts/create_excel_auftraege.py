@@ -43,7 +43,7 @@ print("\n" + "=" * 80)
 print("SCHRITT 2: Auftragsdaten aus JSON laden")
 print("=" * 80)
 
-with open('/tmp/abisco_auftraege.json', 'r') as f:
+with open('/tmp/abisco_auftraege_mit_listenpreis.json', 'r') as f:
     auftraege = json.load(f)
 
 # Gruppiere Aufträge nach Kunde
@@ -144,14 +144,14 @@ for kunde_nr in sorted(auftraege_pro_kunde.keys(), key=lambda x: int(x) if x.isd
     ws[f'A{row}'] = 'AUFTRÄGE'
     ws[f'A{row}'].font = header_font
     ws[f'A{row}'].fill = header_fill
-    ws.merge_cells(f'A{row}:F{row}')
+    ws.merge_cells(f'A{row}:G{row}')
     ws[f'A{row}'].alignment = Alignment(horizontal='center', vertical='center')
     ws.row_dimensions[row].height = 25
     
     row += 1
     
     # Tabellen-Header
-    headers = ['Auftrag', 'Datum', 'Betrag Netto (CHF)', 'Betrag Brutto (CHF)', 'Status', 'Status-Code']
+    headers = ['Auftrag', 'Datum', 'Einkaufspreis (CHF)', 'Betrag Netto (CHF)', 'Betrag Brutto (CHF)', 'Status', 'Status-Code']
     for col, header in enumerate(headers, start=1):
         cell = ws.cell(row=row, column=col)
         cell.value = header
@@ -166,8 +166,9 @@ for kunde_nr in sorted(auftraege_pro_kunde.keys(), key=lambda x: int(x) if x.isd
     for auftrag in sorted(auftraege_pro_kunde[kunde_nr], key=lambda x: x.get('datum', '')):
         ws[f'A{row}'] = auftrag.get('auftragsnummer', '')
         ws[f'B{row}'] = auftrag.get('datum', '')
-        ws[f'C{row}'] = float(auftrag.get('betrag_netto', 0))
-        ws[f'D{row}'] = float(auftrag.get('betrag_brutto', 0))
+        ws[f'C{row}'] = float(auftrag.get('einkaufspreis_netto', 0))
+        ws[f'D{row}'] = float(auftrag.get('betrag_netto', 0))
+        ws[f'E{row}'] = float(auftrag.get('betrag_brutto', 0))
         
         # Status interpretieren (26 = abgeschlossen, 27 = offen)
         status_code = auftrag.get('status', 0)
@@ -178,15 +179,16 @@ for kunde_nr in sorted(auftraege_pro_kunde.keys(), key=lambda x: int(x) if x.isd
         else:
             status_text = f'Status {status_code}'
         
-        ws[f'E{row}'] = status_text
-        ws[f'F{row}'] = status_code
+        ws[f'F{row}'] = status_text
+        ws[f'G{row}'] = status_code
         
         # Formatierung
         ws[f'C{row}'].number_format = '#,##0.00'
         ws[f'D{row}'].number_format = '#,##0.00'
+        ws[f'E{row}'].number_format = '#,##0.00'
         
         # Borders
-        for col in range(1, 7):
+        for col in range(1, 8):
             ws.cell(row=row, column=col).border = border
         
         row += 1
@@ -196,8 +198,9 @@ for kunde_nr in sorted(auftraege_pro_kunde.keys(), key=lambda x: int(x) if x.isd
     ws.column_dimensions['B'].width = 12
     ws.column_dimensions['C'].width = 18
     ws.column_dimensions['D'].width = 18
-    ws.column_dimensions['E'].width = 15
-    ws.column_dimensions['F'].width = 12
+    ws.column_dimensions['E'].width = 18
+    ws.column_dimensions['F'].width = 15
+    ws.column_dimensions['G'].width = 12
 
 print("\n" + "=" * 80)
 print("SCHRITT 4: Excel-Datei speichern")
