@@ -1,0 +1,141 @@
+{
+    "status": 200,
+    "message": "",
+    "data": {
+        "documents": [
+            {
+                "uuid": "9841bb7e-df01-48af-80f1-9f8779ebe242",
+                "currencyCode": "CHF",
+                "currencyCodeRecognized": null,
+                "title": "Rechnung RE1",
+                "reference": "Auftrag A1",
+                "sentStatus": "OPEN",
+                "status": "draft",
+                "customField1": null,
+                "customField2": null,
+                "customField3": null,
+                "customField4": null,
+                "terms": "",
+                "publicNotes": "",
+                "footerText": "",
+                "receiver": {
+                    "addressUuid": "ad08bb56-373d-48df-b906-e994cb27eaf9",
+                    "companyUuid": "e6592469-5215-481d-b354-2227b75a6ad5",
+                    "networkUuid": null,
+                    "networkKey": null,
+                    "networkName": null,
+                    "receiverInformation": {
+                        "customerNumber": "10000",
+                        "companyName": "MT Transport GmbH",
+                        "name": null,
+                        "nameWithSalutation": "MT Transport GmbH",
+                        "careOfAddress": null,
+                        "address": null,
+                        "extension": null,
+                        "houseNumber": null,
+                        "zipCode": "8610",
+                        "city": "Uster",
+                        "countryCode": "CH",
+                        "language": "de",
+                        "email": "info@mt-transport.ch"
+                    },
+                    "additionalReceivers": [],
+                    "contactPersonUuid": null
+                },
+                "invoiceDate": "2025-12-17",
+                "dueDate": "2026-01-16",
+                "deliverDate": "2025-12-17",
+                "deliveryDate": "2025-12-17",
+                "nextDunningDate": null,
+                "customDunningDate": null,
+                "dunningLevel": "NO_DUNNING",
+                "paymentInstructions": {
+                    "bankAccountUuid": "3e2f38d3-c957-4ecc-b1d0-ae563b3fab7b",
+                    "iban": "(UNVOLLST\u00e4NDIG)",
+                    "bic": null,
+                    "reference": null
+                },
+                "pricesIncludeVat": false,
+                "isVariantInvoice": false,
+                "documentTotal": 25.25,
+                "documentDiscount": {
+                    "percentage": 0
+                },
+                "positions": [
+                    {
+                        "uuid": "b1eec12f-16a5-4b4e-b65d-e738061f17e9",
+                        "positionNumber": 1,
+                        "kind": "product",
+                        "productNumber": "HU7020Z",
+                        "productDescription": "\u00d6lfilter",
+                        "productUuid": null,
+                        "productGroupUuid": null,
+                        "quantity": 1,
+                        "unitCode": "C62",
+                        "unitUuid": "fb9abcdc-534c-434f-9ac3-6d51182febc1",
+                        "singlePrice": 14.12,
+                        "positionTotal": 14.12,
+                        "discount": {
+                            "percentage": 0
+                        },
+                        "vatUuid": "1c414ea5-f38e-4d73-ad7b-2a3072c2a4b6",
+                        "vat": {
+                            "percentage": 8.1,
+                            "amount": 1.14372
+                        },
+                        "employeeActivityUuid": null,
+                        "employeeActivityEmployeeUuid": null,
+                        "employeeActivityStartDate": null,
+                        "relatedInvoice": null,
+                        "originalInvoice": null
+                    },
+                    {
+                        "uuid": "04346132-4425-4d50-8e61-40323512c833",
+                        "positionNumber": 2,
+                        "kind": "product",
+                        "productNumber": "2",
+                        "productDescription": "Zustellpauschale",
+                        "productUuid": null,
+                        "productGroupUuid": null,
+                        "quantity": 1,
+                        "unitCode": "C62",
+                        "unitUuid": "fb9abcdc-534c-434f-9ac3-6d51182febc1",
+                        "singlePrice": 10,
+                        "positionTotal": 10,
+                        "discount": {
+                            "percentage": 0
+                        },
+                        "vatUuid": "792c1213-d8f2-491f-93e7-a4a173322981",
+                        "vat": {
+                            "percentage": 0,
+                            "amount": 0
+                        },
+                        "employeeActivityUuid": null,
+                        "employeeActivityEmployeeUuid": null,
+                        "employeeActivityStartDate": null,
+                        "relatedInvoice": null,
+                        "originalInvoice": null
+                    }
+                ],
+                "isTemplate": false,
+                "invoiceNumber": "R0002",
+                "importedInvoiceNumber": null,
+                "systemInvoiceNumber": "R0002",
+                "openAmount": 25.25,
+                "type": "invoice",
+                "abanetSendAt": null,
+                "abanetConfirmedAt": null,
+                "bookedAt": null,
+                "syncedAt": null,
+                "syncMessage": null,
+                "syncStatus": null,
+                "cashDiscounts": [
+                    {
+                        "days": 10,
+                        "percentage": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

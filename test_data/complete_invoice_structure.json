@@ -1,0 +1,54 @@
+{
+  "documents": [
+    {
+      "isTemplate": false,
+      "receiver": {
+        "address_uuid": "e6592469-5215-481d-b354-2227b75a6ad5"
+      },
+      "positions": [
+        {
+          "type": "product",
+          "positionNumber": 1,
+          "title": "My Product Subtitle",
+          "productNumber": "PROD1",
+          "productDescription": "Test product description for a test item",
+          "quantity": 1.0,
+          "unitPrice": 14.12,
+          "unit": "pcs",
+          "discount": {
+            "amount": 0,
+            "unit": "percentage"
+          },
+          "vat": {
+            "type": "vat111",
+            "percentage": 8.1
+          }
+        }
+      ],
+      "availableVats": [
+        {
+          "text": "8.1%",
+          "percentage": 8.1
+        }
+      ],
+      "cashDiscounts": [
+        {
+          "text": "2% within 10 days",
+          "percentage": 2,
+          "days": 10
+        }
+      ],
+      "paymentInstructions": {
+        "type": "qrBill",
+        "qrBillNumber": 1,
+        "title": "My invoice footer",
+        "text": "My custom invoice footer"
+      },
+      "currencyCode": "CHF",
+      "title": "Custom Invoice Title",
+      "header": "2021-12-07",
+      "deliveryDate": "2021-12-07",
+      "paymentDate": "2021-12-07"
+    }
+  ]
+}

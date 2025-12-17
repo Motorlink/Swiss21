@@ -1,0 +1,43 @@
+{
+  "documents": [
+    {
+      "isTemplate": false,
+      "receiver": {
+        "companyName": "string",
+        "salutation": "Mr",
+        "firstName": "string",
+        "lastName": "string",
+        "street": "string",
+        "zipCode": "string",
+        "city": "string",
+        "countryCode": "CH",
+        "title": "Custom Invoice Title",
+        "customField1": "custom 1",
+        "customField2": "custom 2",
+        "customField3": "custom 3",
+        "customField4": "custom 4",
+        "customField5": "custom 5"
+      },
+      "positions": [
+        {
+          "personalId": "aa01118-84c5-49c5-b5f1-bee11112",
+          "customField1": "custom 1",
+          "customField2": "custom 2",
+          "customField3": "custom 3",
+          "customField4": "custom 4",
+          "customField5": "custom 5"
+        }
+      ],
+      "currencyCode": "CHF",
+      "title": "Custom Invoice Title",
+      "customField1": "custom 1",
+      "customField2": "custom 2",
+      "customField3": "custom 3",
+      "customField4": "custom 4",
+      "customField5": "custom 5",
+      "header": "2021-12-07",
+      "deliveryDate": "2021-12-07",
+      "paymentDate": "2021-12-07"
+    }
+  ]
+}

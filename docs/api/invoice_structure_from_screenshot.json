@@ -1,0 +1,38 @@
+{
+  "documents": [
+    {
+      "isTemplate": false,
+      "receiver": {
+        "address_uuid": "..."
+      },
+      "positions": [
+        {
+          "type": "product",
+          "positionNumber": 1,
+          "productDescription": "Test product description for a test item",
+          "quantity": 1,
+          "unitPrice": 10,
+          "unit": "pcs",
+          "vat": {
+            "type": "vat111",
+            "percentage": 7.7
+          },
+          "productNumber": "PROD1"
+        }
+      ],
+      "currencyCode": "CHF",
+      "title": "My Product Subtitle",
+      "invoiceDate": "YYYY-MM-DD",
+      "deliveryDate": "YYYY-MM-DD",
+      "paymentDate": "YYYY-MM-DD",
+      "paymentInstructions": {
+        "type": "qrBill",
+        "text": "Payment instructions for this invoice which are publicly available"
+      },
+      "documentTotal": {
+        "amount": 0,
+        "percentage": 0
+      }
+    }
+  ]
+}
