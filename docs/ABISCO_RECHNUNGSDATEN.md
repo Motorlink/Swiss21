@@ -45,6 +45,7 @@
 | **kundennummer** | ZAHL | Kundennummer | `10000` |
 | **mitarbeiter** | TEXT | Bearbeiter der Rechnung | `Max Mustermann` |
 | **erstellt** | DATUMZEIT | Erstellzeitpunkt | `2024-12-15 10:30:00` |
+| **auftragsnummer** | TEXT | **Zugehörige Auftragsnummer** | `AUF-2024-001` |
 
 ### **2. Preise und Beträge**
 
@@ -56,7 +57,18 @@
 | **skonto_effektiv** | PROZENT | Effektiver Skonto | `2.00` |
 | **skontodatum** | DATUM | **Skonto-Frist** | `2024-12-25` |
 
-### **3. Zahlungsinformationen**
+### **3. Beziehung zum Auftrag** ⭐
+
+| Feld | Typ | Beschreibung | Beispiel |
+|---|---|---|---|
+| **auftragsnummer** | TEXT | **Auftragsnummer** (aus der die Rechnung erstellt wurde) | `AUF-2024-001` |
+
+**Wichtig**: Über die Auftragsnummer kann die vollständige Auftragshistorie nachvollzogen werden:
+- Wann wurde der Auftrag erstellt?
+- Welche Positionen waren ursprünglich im Auftrag?
+- Gibt es Änderungen zwischen Auftrag und Rechnung?
+
+### **4. Zahlungsinformationen**
 
 | Feld | Typ | Beschreibung | Beispiel |
 |---|---|---|---|
@@ -64,14 +76,14 @@
 | **komplett_bezahlt** | BOOL | Ob vollständig bezahlt | `false` |
 | **komplett_bezahlt_datum** | DATUM | Zahlungsdatum | - |
 
-### **4. Status**
+### **5. Status**
 
 | Feld | Typ | Beschreibung | Mögliche Werte |
 |---|---|---|---|
 | **status** | TEXT | Rechnungsstatus | `aktiv`, `gelöscht`, `storniert`, `verrechnet` |
 | **verrechnet** | BOOL | Ob in Rechnungsbeleg | `false` |
 
-### **5. Kundendaten** (aus `<rechnungsadresse>`-Tag)
+### **6. Kundendaten** (aus `<rechnungsadresse>`-Tag)
 
 | Feld | Typ | Beschreibung | Beispiel |
 |---|---|---|---|
@@ -86,7 +98,7 @@
 | **email** | TEXT | **E-Mail-Adresse** | `max@musterfirma.ch` |
 | **telefon** | TEXT | Telefonnummer | `+41 44 123 45 67` |
 
-### **6. Rechnungspositionen** (aus `<position>`-Tags)
+### **7. Rechnungspositionen** (aus `<position>`-Tags)
 
 Jede Rechnung kann **mehrere Positionen** enthalten:
 
@@ -103,7 +115,7 @@ Jede Rechnung kann **mehrere Positionen** enthalten:
 | **positionspreis_brutto** | PREIS | Gesamtpreis Position (brutto) | `1077.00` |
 | **skontierbarkeit** | PROZENT | **Skonto-Fähigkeit** | `100.00` |
 
-### **7. Zusätzliche Informationen**
+### **8. Zusätzliche Informationen**
 
 | Feld | Typ | Beschreibung | Beispiel |
 |---|---|---|---|
@@ -113,14 +125,14 @@ Jede Rechnung kann **mehrere Positionen** enthalten:
 | **kostenstelle** | TEXT | Kostenstelle (bei Aufträgen) | - |
 | **tour** | TEXT | Tour-Information | - |
 
-### **8. Bemerkungen**
+### **9. Bemerkungen**
 
 | Feld | Typ | Beschreibung | Beispiel |
 |---|---|---|---|
 | **bemerkung** | TEXT | Interne Bemerkung | `Wichtiger Kunde` |
 | **text** | TEXT | Bemerkungstext | `Bitte pünktlich liefern` |
 
-### **9. PDF und Anhänge**
+### **10. PDF und Anhänge**
 
 | Feld | Typ | Beschreibung | Beispiel |
 |---|---|---|---|
@@ -133,6 +145,7 @@ Jede Rechnung kann **mehrere Positionen** enthalten:
 
 ### **Vollständige Rechnungsdaten**
 - ✅ **Rechnungsnummer** und **Datum**
+- ✅ **Auftragsnummer** (Verknüpfung zum ursprünglichen Auftrag)
 - ✅ **Kundendaten** (Name, Adresse, E-Mail, Telefon)
 - ✅ **Alle Positionen** mit Beschreibung, Menge, Preisen
 - ✅ **MwSt-Sätze** pro Position
