@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webisco utcoffset="+1" timestamp="2025-12-17 12:12:40" type="response" version="55">
+  <content>
+    <belegliste>
+      <beleg 
+        endpreis_netto="24,12" 
+        rechnungsnummer="" 
+        komplett_bezahlt="F" 
+        endpreis_brutto="25,26" 
+        abholung="F" 
+        faelligkeitsdatum="2025-12-17" 
+        belegdatum="2025-12-17" 
+        id="1" 
+        lieferung="F" 
+        typ="rechnung" 
+        erstellt="2025-12-17 12:06:13" 
+        zahlungsart="0" 
+        bestellername="" 
+        kundennummer="10000" 
+        belegnummer="RE1" 
+        status="verrechnet" 
+        bestellnummer="" 
+        mitarbeiter="">
+        
+        <rechnungsadresse 
+          strasse="Lorenweg 22" 
+          zusatz="" 
+          telefax="" 
+          steuernummer="" 
+          vorname="" 
+          handy="" 
+          ustidnr="" 
+          name="MT Transport GmbH" 
+          plz="8610" 
+          land="DEU" 
+          telefon="" 
+          ort="Uster" 
+          anrede="Firma" 
+          email="info@mt-transport.ch"/>
+        
+        <belegverlauf id="1" typ="auftrag"/>
+        <belegverlauf id="1" typ="rechnung"/>
+        
+        <position 
+          einzelpreis_brutto="15,26" 
+          lieferdatum="2025-12-17" 
+          mwst="8,1" 
+          listenpreis="19,60" 
+          positionspreis_brutto="15,26" 
+          belegrabattierbarkeit="100" 
+          rechnungsnummer="RE1" 
+          menge="1" 
+          skontierbarkeit="100" 
+          auftragsnummer="A1" 
+          paketfaehig="T" 
+          sperrgut="F" 
+          rechnungsdatum="2025-12-17" 
+          id="1" 
+          gefahrgut="F" 
+          artikelid="407888" 
+          herstellernummer="HU 7020 z" 
+          beschreibung="Ölfilter" 
+          typ="artikel" 
+          positionspreis_netto="14,12" 
+          artikelnummer="HU7020Z" 
+          einzelgewicht="80" 
+          hersteller="Mann &amp; Hummel" 
+          einzelpreis_netto="14,12" 
+          status="geliefert" 
+          einspeiserid="4"/>
+        
+        <position 
+          einzelpreis_brutto="10,00" 
+          lieferdatum="2025-12-17" 
+          mwst="0" 
+          positionspreis_brutto="10,00" 
+          belegrabattierbarkeit="0" 
+          rechnungsnummer="RE1" 
+          menge="1" 
+          skontierbarkeit="0" 
+          auftragsnummer="A1" 
+          paketfaehig="F" 
+          sperrgut="F" 
+          rechnungsdatum="2025-12-17" 
+          id="3" 
+          gefahrgut="F" 
+          beschreibung="Zustellpauschale" 
+          typ="zustellung" 
+          positionspreis_netto="10,00" 
+          status="geliefert" 
+          einzelpreis_netto="10,00"/>
+      </beleg>
+    </belegliste>
+  </content>
+</webisco>
