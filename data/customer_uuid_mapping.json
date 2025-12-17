@@ -1,0 +1,102 @@
+{
+  "10002": {
+    "uuid": "a456efed-e92d-4126-963c-bca4ac94479d",
+    "name": "Truck Center Regensdorf AG",
+    "company_name": "Truck Center Regensdorf AG"
+  },
+  "10003": {
+    "uuid": "81bbb9c0-a2db-433c-a055-d3c2f181e6f5",
+    "name": "Endkunde",
+    "company_name": "Endkunde"
+  },
+  "10004": {
+    "uuid": "544a6767-ec36-4341-8570-79d44ffd9a68",
+    "name": "AB Automobile",
+    "company_name": "AB Automobile"
+  },
+  "10005": {
+    "uuid": "c9c26c7a-4942-409e-9487-6a97c58ea527",
+    "name": "Eko Performance",
+    "company_name": "Eko Performance"
+  },
+  "10006": {
+    "uuid": "85d89bdb-37f0-4972-bf88-24300f77c8d3",
+    "name": "Hüseyin Kuzu",
+    "company_name": "Hüseyin Kuzu"
+  },
+  "10007": {
+    "uuid": "2e5d60a3-9e85-4972-9cfe-221928f149f0",
+    "name": "Car Lounge 83 GmbH",
+    "company_name": "Car Lounge 83 GmbH"
+  },
+  "10009": {
+    "uuid": "c662e9f8-01fd-41aa-a9ab-6bbc3a9c63f7",
+    "name": "TESTKUNDE",
+    "company_name": "TESTKUNDE"
+  },
+  "10010": {
+    "uuid": "12381746-5c4e-41c9-a9ee-d98de5857f61",
+    "name": "Barverkauf Twindt",
+    "company_name": "Barverkauf Twindt"
+  },
+  "10014": {
+    "uuid": "eddc81ac-725b-4b69-9dcc-31a74e984424",
+    "name": "sales",
+    "company_name": "sales"
+  },
+  "10015": {
+    "uuid": "6eebf8c1-f1a7-471d-94b3-d41da0dd1eaa",
+    "name": "DIAMAS Group AG",
+    "company_name": "DIAMAS Group AG"
+  },
+  "10016": {
+    "uuid": "97427366-9973-48d2-ad1b-550c6b23a511",
+    "name": "Norline AG",
+    "company_name": "Norline AG"
+  },
+  "10017": {
+    "uuid": "20246531-fc12-4980-8859-3483c73b2043",
+    "name": "AVS Garage AG",
+    "company_name": "AVS Garage AG"
+  },
+  "10018": {
+    "uuid": "bcab3377-51f1-43e1-8bcf-02d766214d63",
+    "name": "Bachmann Autospenglerei + Spritzwerk",
+    "company_name": "Bachmann Autospenglerei + Spritzwerk"
+  },
+  "10019": {
+    "uuid": "c75ea3fe-30ff-4943-a2ee-d09ca0e3b040",
+    "name": "Vogt Classic",
+    "company_name": "Vogt Classic"
+  },
+  "10020": {
+    "uuid": "5e9160c3-6015-41c9-9639-7110cd73d9ca",
+    "name": "Sport Garage Cotardo GmbH",
+    "company_name": "Sport Garage Cotardo GmbH"
+  },
+  "10021": {
+    "uuid": "4d6e11e1-f7b1-4041-be5e-2c908207ac25",
+    "name": "Harper's AG",
+    "company_name": "Harper's AG"
+  },
+  "10022": {
+    "uuid": "fa3d693a-85ec-4893-9b1f-5e1be1dc1297",
+    "name": "ISTANBUL GARAGE",
+    "company_name": "ISTANBUL GARAGE"
+  },
+  "10024": {
+    "uuid": "bd4d9913-4794-47ad-a0ae-0d26687e961d",
+    "name": "Carrosserie Bräm & Bajrami GmbH",
+    "company_name": "Carrosserie Bräm & Bajrami GmbH"
+  },
+  "10026": {
+    "uuid": "d637bf10-c0f4-4a55-8d6c-c0120fc945b6",
+    "name": "CARROSSERIE ÖRLIKE TL AG",
+    "company_name": "CARROSSERIE ÖRLIKE TL AG"
+  },
+  "10027": {
+    "uuid": "b460a760-1ac3-47a8-ac69-11cca8c28936",
+    "name": "Arifi Garage (eich-pfungen ag)",
+    "company_name": "Arifi Garage (eich-pfungen ag)"
+  }
+}
