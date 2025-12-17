@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webisco version="21" username="10000" password="ADMIN_ID_HIER" type="request" adminid="DEINE_ADMIN_ID">
+  <content>
+    <auftrag typ="bestellung">
+      <!-- Auftragskopf -->
+      <bestellername>MT Transport GmbH</bestellername>
+      <bestellnummer>AUFTRAG-2</bestellnummer>
+      <wunschlieferdatum>2025-09-08</wunschlieferdatum>
+      <wunschfilialid>1</wunschfilialid>
+      <bemerkung>Reimport von Auftrag 2 aus Abisco-Datenbank</bemerkung>
+      <referer>http://abisco-migration.local</referer>
+      
+      <!-- Artikelpositionen -->
+      <!-- HINWEIS: Hier müssen die echten Artikeldaten aus der Datenbank eingefügt werden -->
+      
+      <position>
+        <artikelid>ARTIKEL_ID_1</artikelid>
+        <menge>1.00</menge>
+        <einzelpreis_netto>176.92</einzelpreis_netto>
+        <einzelpreis_brutto>191.25</einzelpreis_brutto>
+        <listenpreis>176.92</listenpreis>
+        <mwst>8.1</mwst>
+        <beschreibung>Beispielartikel Position 1</beschreibung>
+        <bemerkung>Reimport aus Auftrag 2</bemerkung>
+      </position>
+      
+      <!-- Weitere Positionen hier einfügen -->
+      
+    </auftrag>
+  </content>
+</webisco>
