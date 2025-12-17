@@ -1,0 +1,11 @@
+{
+  "api_base_url": "https://api.abaninja.ch",
+  "api_token": "YOUR_JWT_TOKEN_HERE",
+  "account_uuid": "YOUR_ACCOUNT_UUID_HERE",
+  "timeout": 30,
+  "max_retries": 3,
+  "pagination": {
+    "default_limit": 50,
+    "max_limit": 100
+  }
+}
